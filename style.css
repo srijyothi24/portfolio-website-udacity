@@ -1,0 +1,130 @@
+
+#udacity {
+	float: left;
+}
+
+
+#udacity img {
+	width: 100px;
+}
+
+
+#udacity img:hover {
+	box-shadow: 5px 5px 22px #9aa;
+}
+
+
+#header-title {
+	float: right;
+	color: #180502;;
+	text-align: right;
+}
+
+header{
+
+    overflow: auto;
+}
+
+header, .container{
+	margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+
+#webdeveloper-view {
+	background: no-repeat center/cover url("./images/sjyothi.jpg");
+	height: 300px;
+	font-size: 2em;
+	color: #fff;
+	text-align: center;
+	text-shadow: 4px 4px 2px #000;
+	box-shadow: 4px 4px 4px 0 #888;
+}
+
+
+#webdeveloper-view p {
+	opacity: 0.5;
+	margin: 0px;
+}
+
+
+.font-ma {
+	font-family: "Julius Sans One", sans-serif;
+}
+
+#content {
+	display: flex;
+}
+
+
+.style-card {
+	box-shadow: 2px 2px 4px 0 #02b3e4;
+	width: 33%;
+	text-align: center;
+	margin: 10px;
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex: 1;
+}
+
+.style-card:hover {
+	background-color: #eee;
+}
+
+.chunk img {
+	overflow: visible;
+	height:200px;
+	width: 100%;
+}
+
+.chunk p {
+	font-style: italic;
+	font-size: 14px;
+}
+
+.my-link {
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+	color: #953;
+}
+
+.my-link:hover {
+	color: #832;
+}
+
+a {
+	color: #864;
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+a:hover {
+	color: #852;
+	text-decoration: underline;
+	box-shadow: 5px 5px 22px #9aa;
+}
+
+footer {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 23px;
+}
+
+footer img {
+	width: 30px;
+	height: 30px;
+}
+
+/* breakpoints */
+@media screen and (max-width: 700px) {
+
+.style-card{
+	width: 100%;
+}
+#content{
+	display: block;
+}
+}
